@@ -227,7 +227,7 @@ $('document').ready(function(){
 		
 	});
 });
-
+export.build = series(scssTask,jsTask);
 
 
 
