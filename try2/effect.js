@@ -227,7 +227,8 @@ $('document').ready(function(){
 		
 	});
 });
-export.build = series(scssTask,jsTask);
+exports .default = series(scssTask, jsTask, browserSyncServer, watchTask);
+exports.build = series(scssTask, jsTask);
 
 
 
